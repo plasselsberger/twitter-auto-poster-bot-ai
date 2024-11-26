@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "Generate engaging and humorous tweets about the world of meme coins, highlighting key updates, trends, and news from the crypto space. Focus on a mix of general meme coin insights and specific updates about E-Rich Coin (www.erichcoin.com). Use humor, relatable analogies, and pop culture references to make posts entertaining and shareable. Incorporate hashtags like #ERichCoin, #MemeCoin, #CryptoNews, and #CryptoMemes. Aim for a casual tone that resonates with crypto enthusiasts while sparking interest in E-Rich Coin alongside other trending meme coins.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
